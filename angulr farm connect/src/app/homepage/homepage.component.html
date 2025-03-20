@@ -1,0 +1,81 @@
+<header>
+  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><a href="#home"><img class="logo" src="images/farmconnect logo.jpg" alt="FarmConnect"></a>
+    </a>
+    <form class="d-flex">
+      <input class="form-control me-sm-2" type="search" placeholder="Search">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit" (click)="searchbyname()">Search</button>
+    </form>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <ul class="nav-links">
+
+              <li><a  routerLink="about">About</a></li>
+              <li><a  routerLink="services">Services</a></li>
+              <li><a  routerLink="contact">Contact</a></li>
+              <!-- <li><a  routerLink="login">Login</a></li> -->
+              <li><a  routerLink="login"><b>Customer</b></a></li>
+              <li><a  routerLink="farmer-login"><b>Farmer</b></a></li>
+            </ul>
+          </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+  <div class="hero-main">
+    <section id="home" class="hero-section">
+      <h1 class="hero-title">Connecting Farmers with Customers</h1>
+      <p class="hero-subtitle">Buy fresh produce directly from farmers.</p>
+      <a  class="btn-primary" routerLink="viewproducts">Explore Products</a>
+    </section>
+  </div>
+
+
+  <div class="hero-main2">
+    <section id="about" class="about-section">
+      <a href="#services"><h2 class="btn-primary"routerLink="about">About Us</h2></a>
+    
+      <p class="section-text">FarmConnect is a platform that bridges the gap between farmers and consumers, ensuring
+        fair
+        trade and fresh products.</p>
+    </section>
+  </div>
+  <div class="hero-main3">
+    <section id="services" class="service-section">
+      <h2 class="btn-primary"routerLink="services">Our Services</h2>
+      <ul class="services-list">
+        <li>Direct farmer-to-customer sales</li>
+        <li>Quality assured organic produce</li>
+        <li>Fast and secure transactions</li>
+      </ul>
+    </section>
+  </div>
+  <div class="hero-main4">
+    <section id="contact" class="contact-section">
+      <br><br><br>
+      <h2 class="btn-primary"routerLink="contact">Contact Us</h2>
+      <!-- <p class="contact-info">Email: connectfarm77&#64;gmail.com</p>
+      <p class="contact-info">Phone: +91 9876543210</p> -->
+      <br>
+      <br><br>
+    </section>
+  </div>
+
+ 
+
+ 
+
+  <footer class="footer">
+    <p>&copy; 2025 FarmConnect All rights reserved.</p>
+  </footer>

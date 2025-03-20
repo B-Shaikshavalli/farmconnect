@@ -1,0 +1,102 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  background-color: #343a40 !important;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+}
+
+.card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+
+/* Navbar
+.navbar {
+
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3e50;
+  padding: 15px 50px;
+}
+
+.logo {
+  height: 10%;
+  width: 20%;
+
+
+}
+
+.hero-main {
+  background-color: aliceblue;
+  padding-top: 120px;
+  padding-left: 80px;
+  padding-right: 120px;
+  padding-bottom: 120px;
+
+}
+
+.hero-main2 {
+  background-color: rgb(198, 193, 197);
+  padding-top: 120px;
+  padding-left: 80px;
+  padding-right: 120px;
+  padding-bottom: 120px;
+
+}
+
+.hero-main3 {
+  background-color: rgb(250, 228, 223);
+  padding-top: 120px;
+  padding-left: 80px;
+  padding-right: 120px;
+  padding-bottom: 120px;
+
+}
+
+.hero-main4 {
+  background-color: rgb(134, 212, 251);
+  padding-top: 120px;
+  padding-left: 80px;
+  padding-right: 120px;
+  padding-bottom: 120px;
+
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #1abc9c;
+} */

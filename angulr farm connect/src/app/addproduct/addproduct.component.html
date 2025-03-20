@@ -1,0 +1,57 @@
+<head>
+    <link rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<div class="container"  align="center">
+    <h1 align="center">Add Product</h1>
+    <table align="center">
+
+
+        <tr>
+            <td>Farmer emailiId </td>
+            <td>
+                <input type="text" name="farmerEmailId" [(ngModel)]="prod.farmerEmailId"/>       
+            </td>
+        </tr>
+        <tr>
+            <td>Product Name </td>
+            <td>
+                <input type="text" name="pname" [(ngModel)]="prod.name"/>       
+            </td>
+        </tr>
+        <br>
+        <tr>
+            <td>Category </td>
+            <td>
+                <select name="category" [(ngModel)]="prod.category">
+                    <option value="" selected>Select Category</option>
+                    <option value="Oils & Fats" [(ngModel)]="prod.category">Oils & Fats</option>
+                    <option value="Rice & Wheat" [(ngModel)]="prod.category">Rice & Wheat</option>
+                    <option value="Nuts & Seeds (Sprout Activated)" [(ngModel)]="prod.category">Nuts & Seeds (Sprout Activated)</option>
+                </select>
+            </td>
+        </tr>
+        <br>
+        <tr>
+            <td>Price </td>
+            <td><input type="text" name="price" [(ngModel)]="prod.price" /></td>
+        </tr>
+        <br>
+        <tr>
+            <td>Quantity </td>
+            <td><input type="text" name="quantity" [(ngModel)]="prod.quantity" /></td>
+        </tr>
+        <br>
+        <tr>
+            <td>ImageURL </td>
+            <td><input type="text" name="imgUrl" [(ngModel)]="prod.imgUrl" /></td>
+        </tr>
+        <br>
+        <tr>
+            <td></td>
+            <td>
+                <button (click)="addproduct()" class="btn btn-primary">Add Product</button>
+            </td>
+        </tr>
+    </table>
+</div>
